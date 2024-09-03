@@ -1,3 +1,10 @@
 # This is a sample config file for frontend.
 # Replace with production config.prod.yml.
 # It will be mounted to docker container.
+
+rest:
+  ssl: true
+  host: clarin-repo2.dhcp.ffzg.hr
+  port: 443
+  # NOTE: Space is capitalized because 'namespace' is a reserved string in TypeScript
+  nameSpace: /server
